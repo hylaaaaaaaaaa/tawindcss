@@ -7,14 +7,14 @@
 
             <div class="rounded w-[220px] h-[30px] bg-white mt-[45px]  flex items-center">
                 <img src="../assets/zhanghao.svg" class="w-[22px] h-full " />
-                <input type="text" class=" outline-none text-black pl-[10px]" />
+                <input type="text" class="  outline-none text-black pl-[10px] font-mono " />
             </div>
             <div class="rounded w-[220px] h-[30px] bg-white mt-[10px]  flex items-center">
                 <img src="../assets/mima.svg" class="w-[20px] h-full " />
                 <input type="text" class=" outline-none text-black pl-[10px] font-mono" />
             </div>
-            <button class="w-[220px] bg-cyan-600 h-[30px] mt-[15px] rounded hover:bg-cyan-500" @click="login">登录</button>
-            <button class="w-[220px] bg-cyan-600 h-[30px] mt-[5px] rounded hover:bg-cyan-500">重置</button>
+            <button class="w-[220px] bg-cyan-600 h-[35px] mt-[18px] rounded hover:bg-cyan-500" @click="login">登 录</button>
+            <button class="w-[220px] bg-cyan-600 h-[35px] mt-[5px] rounded hover:bg-cyan-500">重 置</button>
 
         </div>
     </div>
