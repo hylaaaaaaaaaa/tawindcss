@@ -27,16 +27,34 @@
     <div
       class="bg-gradient-to-r from-blue-200 via-blue-200 to-transparent h-[600px] w-3/5 bg-no-repeat bg-center bg-cover absolute top-0 left-0 -z-10">
     </div>
-    <div
-      class="bg-[url('./assets/background.gif')] h-[600px] w-5/6 bg-no-repeat bg-center bg-cover absolute top-0 right-0 -z-20">
-      <!-- <video class=" w-full h-full" src="https://tendersics.oss-cn-beijing.aliyuncs.com/articles/41b0060e-189675299ce.mp4"
-        autoplay loop muted></video> -->
+    <div class=" h-[600px] w-5/6 bg-no-repeat bg-center bg-cover absolute top-0 right-0 -z-20">
+      <video class=" w-full h-full object-cover"
+        src="https://file.qingflow.com/official-page/index/v2022/home-section1-auto.mp4" autoplay loop muted></video>
     </div>
 
   </div>
-  <div class="w-[1200px]  mx-auto max-w-7xl flex ">
-    <div class=""></div>
+  <div class="w-[1200px]  mx-auto max-w-7xl flex justify-between px-10 mt-10">
+    <div class=" rounded-3xl cursor-pointer max-w-[360px] max-h-[272px] overflow-hidden"><img alt="" width="360"
+        height="200" srcset="" class="transition-transform duration-300 ease-in-out hover:transform hover:scale-105"
+        data-v-968d523a=""
+        src="https://file.qingflow.com/official-page/multiple-page/event/76day-2023.png?x-oss-process=image/format,webp">
+    </div>
+    <div class=" rounded-3xl cursor-pointer max-w-[360px] max-h-[272px] overflow-hidden"><img alt="" width="360"
+        height="200" srcset="" class="transition-transform duration-300 ease-in-out hover:transform hover:scale-105"
+        data-v-968d523a=""
+        src="https://file.qingflow.com/official-page/multiple-page/event/financing.jpg?x-oss-process=image/format,webp">
+    </div>
+    <div class=" rounded-3xl cursor-pointer max-w-[360px] max-h-[272px] overflow-hidden "><img alt="" width="360"
+        height="200" srcset="" class="transition-transform duration-300 ease-in-out hover:transform hover:scale-105"
+        data-v-968d523a=""
+        src="https://file.qingflow.com/official-page/multiple-page/event/superstar-enterprises-1031.png?x-oss-process=image/format,webp">
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} */
+</style>
